@@ -9,7 +9,9 @@ function Main() {
         <Content>
             <Bar>
                 <Logo>
-                    <img src="" alt="Logo" />
+                    <picture>
+                        <img src="" alt="Logo" />
+                    </picture>
                 </Logo>
 
                 <Menu>
@@ -22,14 +24,14 @@ function Main() {
 
                     <span>Language</span>
 
-                    <img src="./images/usa.png" alt="language flag" />
+                    <picture><img src="./images/usa.png" alt="language flag" /></picture>
 
                     <MdKeyboardArrowDown />
 
                     <Profile>
                         <GiHamburgerMenu color="black" size="16px" />
 
-                        <img src="./images/avatar.png" alt="language flag" />
+                        <picture><img src="./images/avatar.png" alt="language flag" /></picture>
                     </Profile>
                 </Menu>
             </Bar>
