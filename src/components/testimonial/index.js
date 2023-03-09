@@ -20,7 +20,7 @@ function Testimonial() {
                     </InfoHeader>
 
                     <Speak>
-                        "I am a traveler and Travely helps me a lot in finding and choosing a best destination and offcourse the price is worth" <BsFillEmojiHeartEyesFill color="#FFCB4C" /> <AiFillHeart color="red" />
+                        &quot;I am a traveler and Travely helps me a lot in finding and choosing a best destination and offcourse the price is worth&quot; <BsFillEmojiHeartEyesFill color="#FFCB4C" /> <AiFillHeart color="red" />
                     </Speak>
 
                     <Rate>

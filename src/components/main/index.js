@@ -41,7 +41,7 @@ function Main() {
 
             <Highlights>
                 <h2>
-                    Explore The Huge World & Enjoy It`s Beauty
+                    Explore The Huge World & Enjoy It&apos;s Beauty
                 </h2>
 
                 <span>
