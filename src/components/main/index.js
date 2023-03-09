@@ -3,15 +3,18 @@ import { Bar, Content, Highlights, Logo, Menu, Profile, Search, SearchButton } f
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { FiMapPin, FiCalendar, FiUser, FiSearch } from 'react-icons/fi'
+import { BsAirplaneEngines } from 'react-icons/bs'
 
 function Main() {
     return(
         <Content>
             <Bar>
                 <Logo>
-                    <picture>
-                        <img src="" alt="Logo" />
-                    </picture>
+                    <SearchButton>
+                        <BsAirplaneEngines color="#FFFFFF" size="24px" />
+                    </SearchButton>
+
+                    <h2>Travely</h2>
                 </Logo>
 
                 <Menu>
@@ -26,7 +29,7 @@ function Main() {
 
                     <picture><img src="./images/usa.png" alt="language flag" /></picture>
 
-                    <MdKeyboardArrowDown />
+                    <MdKeyboardArrowDown color="white" />
 
                     <Profile>
                         <GiHamburgerMenu color="black" size="16px" />

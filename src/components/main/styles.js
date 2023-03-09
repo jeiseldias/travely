@@ -60,6 +60,15 @@ export const Logo = styled.div`
 
     width:250px;
     height:60px;
+
+    h2 {
+        margin-left:8px;
+
+        font-family: "Degular";
+        font-size: 40px;
+
+        color:#FFFFFF;
+    }
 `
 
 export const Menu = styled.div`

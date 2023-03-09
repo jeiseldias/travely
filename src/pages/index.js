@@ -5,6 +5,7 @@ import Popular from '@/components/popular'
 import Benefits from '@/components/benefits'
 import Testimonial from '@/components/testimonial'
 import Newsletter from '@/components/newsletter'
+import Footer from '@/components/footer'
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
             <Benefits />
             <Testimonial />
             <Newsletter />
+            <Footer />
         </>
     )
 }
