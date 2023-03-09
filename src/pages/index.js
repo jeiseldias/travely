@@ -2,7 +2,9 @@ import Head from 'next/head'
 
 import Main from '@/components/main'
 import Popular from '@/components/popular'
-import Benefits from '../components/benefits'
+import Benefits from '@/components/benefits'
+import Testimonial from '@/components/testimonial'
+import Newsletter from '@/components/newsletter'
 
 export default function Home() {
     return (
@@ -17,6 +19,8 @@ export default function Home() {
             <Main />
             <Popular />
             <Benefits />
+            <Testimonial />
+            <Newsletter />
         </>
     )
 }
